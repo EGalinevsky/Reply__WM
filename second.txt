@@ -1,1 +1,3 @@
-first text in a new branch
+first text in a 
+
+second new contant in the branch
