@@ -1,3 +1,6 @@
 first text in a new
 
 I made  new contant 
+first text in a 
+
+second new contant in the branch
