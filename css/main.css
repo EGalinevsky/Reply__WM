@@ -12,6 +12,10 @@ button{
     padding: .2rem 5rem;
     color: #fff;
 }
-.nav__link{
+
+.nav__header{
+    margin: 0;
+}
+.nav__item{
     list-style-type: none;
 }
