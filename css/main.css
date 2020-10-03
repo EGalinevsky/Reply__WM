@@ -1,0 +1,17 @@
+table{
+    
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #000000;
+} 
+
+button{
+    background: #6464ff;
+    padding: .2rem 5rem;
+    color: #fff;
+}
+.nav__link{
+    list-style-type: none;
+}
