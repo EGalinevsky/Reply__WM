@@ -2,7 +2,7 @@ div, p, input, button, form, span, a, ul, li{
     box-sizing: border-box;	
 }
 
-p{
+p,body{
     margin: 0;
 }
 
@@ -399,3 +399,17 @@ h1, h2, h3, h4, h5, h6{
     color: #000;
     background: #FFFFFF;
 }
+
+.footer{
+    margin-top: 148px;
+    background: #16143D;
+  
+}
+
+.wrapper__footer{
+    padding-top: 92px;
+    width: 100%;
+    max-width: 1160px;
+    margin: 0 auto;
+}
+
