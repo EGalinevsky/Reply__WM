@@ -2,8 +2,12 @@ div, p, input, button, form, span, a, ul, li{
     box-sizing: border-box;	
 }
 
+p{
+    margin: 0;
+}
+
 h1, h2, h3, h4, h5, h6{
-	margin: 0 ;
+	margin: 0;
 } 
 
 .header{
@@ -15,13 +19,18 @@ h1, h2, h3, h4, h5, h6{
 .wrapper__header{   
     display: flex;   
     justify-content: space-between;
-    margin-top: 1.7rem ;
-    padding-bottom: 1.8rem;
+    margin-top: 33px;
+    padding-bottom: 40px;
     border-bottom: 1px solid #D8D8D8;    
 }
 
 .logo__img{
     margin-right: 1rem;
+}
+
+.logo__header{
+    display: flex;   
+    align-items: center;    
 }
 
 .nav{
@@ -94,32 +103,38 @@ h1, h2, h3, h4, h5, h6{
 .banner__title{
     font-family: 'Nunito Sans', sans-serif;
     font-weight: 600;
-    line-height: 6rem;
+    line-height: 68px;
     font-size: 56px;
     color: #16133E;
-    margin: 0 0 1.8rem;
+    margin: 0 0 1.5rem;
 }
 
 .banner__text{
     font-family: 'Roboto', sans-serif;
     line-height: 2.5rem;
     font-size: 19px;    
-    margin-bottom: 3rem;  
+    margin-bottom: 2.2rem;  
     color: #183B56;
+}
+
+.bnt__banner__inner{
+    display: flex;
+    width: 100%;
 }
 
 .bnt__banner{
     font-family: 'Roboto', sans-serif;
-    font-size: 1.4rem;
+    font-size: 1.3rem;
 
     margin-right: 2rem;
+    
     color: #007FFC;
     background-color: #fff;
     border: 2px solid #007FFC;
     border-radius: 8px;
     cursor: pointer;
     outline: none;
-    padding: 1.2rem 2.7rem;
+    padding: 1rem 2.2rem;
     transition: background .2s linear, color .2s linear;
 }
 
@@ -127,6 +142,7 @@ h1, h2, h3, h4, h5, h6{
     background-color: #007FFC;
     color: #fff;
 }
+
 
 .service{
     margin-top: 121px;
@@ -154,7 +170,7 @@ h1, h2, h3, h4, h5, h6{
 }
 
 .service__list{
-    margin-top: 5.3rem;
+    margin-top: 4rem;
     display: flex;
     width: 100%;
 }
@@ -219,7 +235,7 @@ h1, h2, h3, h4, h5, h6{
 .features__item{    
     margin-top: 7.5rem;
     margin-right: 3.9rem;
-    margin-bottom: 16.5rem;
+    margin-bottom: 12.3rem;
     position: relative;
 }
 .features__item:last-child{
@@ -237,4 +253,149 @@ h1, h2, h3, h4, h5, h6{
    margin:0 22px 44px 45px;   
 }
 
+.price__inner{
+    display: flex;
+    margin-top: 7rem;
+    width: 100%;
+    margin-right: 2.2rem;
+}
+.price__inner:last-child{
+    margin-right: 0;
+}
 
+.price__item{
+    width: 33.33333%;
+    padding: 0;
+    margin-right: 26px;
+    list-style-type: none;
+    text-align: center;    
+}
+
+.price__item__blue{
+    border-top: 4px solid #0593FA ;
+}
+
+.price__item__green{
+    border-top: 4px solid #56CBAE ;
+}
+
+.price__item__red{
+    border-top: 4px solid #FA6770 ;
+}
+
+.price__col{
+    margin: 3.1rem 4.8rem 2.8rem;
+}
+
+.price__subtitle{
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    margin-bottom: 2.7rem;
+}
+
+.price__title{
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.price__title__blue{
+    color: #0593FA;
+}
+
+.price__title__green{
+    color: #56CBAE;
+}
+
+.price__title__red{
+    color: #FA6770;
+}
+
+.price__text{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: #87A1B6;
+    margin-bottom: 2.8rem;
+}
+
+.price__subtext{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: #87A1B6;
+    margin-bottom: 54px;
+}
+
+.price__btn{
+    color: #16133E;
+    background-color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    cursor: pointer;
+    outline: none;
+    padding: 1.05rem 3.2rem;
+    border: 2px solid #16133E;
+    border-radius: 23px;
+    transition:color .2s linear,  background-color .2s linear ;
+}
+
+.price__btn:hover{
+    background-color: #16133E;
+    color: #fff;
+}
+
+.ada{
+    margin-top: 197px;
+    
+}
+
+.ada__inner{
+    position: relative;
+}
+.ada__img{
+    position: relative;
+    width: 100%;
+}
+.lol{
+    position: absolute;  
+    text-align: center;
+    top: 100px;
+    margin: 0 240px 0 245px;
+}
+.ada__title{
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+    color: #fff;
+    font-weight: 400;
+    margin-bottom: 32px;
+}
+.ada__text{
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #fff;
+    margin-bottom: 46px;
+}
+
+.ada__btn{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff;
+    background: none;
+    border: 2px solid #fff;
+    border-radius: 23px;
+    padding: 17px 50px;
+    cursor: pointer;
+    outline: none;
+    margin-right: 0.95rem;
+    transition: background .2s linear, color .2s linear;
+}   
+
+.ada__btn:last-child{
+    margin-right: 0;
+}
+
+.ada__btn:hover{
+    color: #000;
+    background: #FFFFFF;
+}
