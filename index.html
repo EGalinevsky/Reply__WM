@@ -192,7 +192,7 @@
        <section class="ada">
             <div class="ada__inner">
                 <img class="ada__img" src="img/project/ada.png" alt="">
-                <div class="lol">
+                <div class="ada__item">
                     <h2 class="ada__title">Get started today and try 30 days free</h2>
                     <p class="ada__text">No contact, no set-up costs, just awesome way to organise your money.</p>
                     <button class="ada__btn">Try if fro free</button>
@@ -200,6 +200,30 @@
                 </div>                               
             </div>
        </section>
+       <form class="information" action="#" method="GET" >
+            <h2 class="form__title">Request further information</h2>           
+            <input class="information__item" type="email" name="email" id="email" placeholder="email"><br/>
+            <input class="information__item" type="text" name="firstName" id="firstName" placeholder="First name"><br/>
+            <input class="information__item" type="text" name="lastName" id="lastName" placeholder="Last name"><br/>
+            <input class="information__item" type="text" name="companyName" id="companyName" placeholder="Company name"><br>
+            <input class="information__item" type="text" name="phoneNumber" id="phoneNumber" placeholder="Phone number"><br>
+            <textarea class="information__message" name="message" id="messager"  placeholder="Your messager"></textarea><br>
+
+            <div class="information__checkbox">
+                <input type="checkbox" name="checkbox" id="agree" value="agree">
+                <label for="agree">I agree for a representation of something</label> 
+            </div>    
+            <div class="information__checkbox">
+                <input type="checkbox" name="checkbox" id="subscribe" value="subscribe">
+                <label for="subscribe">Please, also subscribe to our newsletter</label> 
+            </div>
+           
+
+            <input type="submit" class="information__btn" name="submitForm" value="Submit">      
+            <p class="information__text">Please, find out our Privacy Policy 
+                <a class="information__link" href="#">here</a>
+            </p>               
+       </form> 
        
    </main>
 
@@ -209,39 +233,110 @@
                 <img  class="logo__img" src="img/project/Shape.svg" alt="logo__img">
                 <img src="img/project/Shape__footer.svg" alt="logo__text">
                 <p class="footer__text">We're brand strategy and digital design agency, building brands that matter in culture.</p>
-                <nav>
+                <nav class="footer__social">
                     <ul>
                         <li>
-                            
+                            <a href="#">                                
+                                <img src="img/footer/Group 11.svg" alt="">
+                            </a>
                         </li>
                     </ul>
                     <ul>
                         <li>
-
+                            <a href="#">
+                                <img src="img/footer/Group 12.svg" alt="">
+                            </a>                            
                         </li>
                     </ul>
                     <ul>
                         <li>
-
+                            <a href="#">
+                                <img src="img/footer/Group 13.svg" alt="">
+                            </a>                            
                         </li>
                     </ul>
                     <ul>
                         <li>
-
+                            <a href="#">
+                                <img src="img/footer/Group 14.svg" alt="">
+                            </a>                            
                         </li>
                     </ul>
                     <ul>
                         <li>
-                            
+                            <a href="#">
+                                <img src="img/footer/Group 15.svg" alt="">
+                            </a>                            
                         </li>
                     </ul>
                 </nav>
+                
             </div>
-            <nav>
-                <ul></ul>
-                <ul></ul>
-                <ul></ul>
+            <nav class="footer__list">
+                <ul>
+                    <li>
+                        <h3 class="title__subtitle">
+                            Services
+                        </h3>                        
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <a class="footer__item" href="#">Blog</a>                        
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <a class="footer__item" href="#">Partner with freehand</a>                        
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <a class="footer__item" href="#">Apps & Plugins</a>                        
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <a class="footer__item" href="#">FAQ</a>                        
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <a class="footer__item" href="#">UI Kit</a>                        
+                    </li>
+                </ul>
             </nav>
+            <nav class="footer__list">
+                <ul>
+                    <li>
+                        <h3 class="title__subtitle">
+                            Company
+                        </h3>                        
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <a class="footer__item" href="#">About</a>                        
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <a class="footer__item" href="#">Terms</a>                        
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <a class="footer__item" href="#">Privacy Policy</a>                        
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <a class="footer__item" href="#">Careers</a>                        
+                    </li>
+                </ul>                
+            </nav>
+            
+            
        </div>
     </footer>
 
