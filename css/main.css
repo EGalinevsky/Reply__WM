@@ -557,8 +557,11 @@ h1, h2, h3, h4, h5, h6{
 
 .footer__list:first-child{
     margin-right: 100px;
-    border: #fff 1px solid;
-    
+    border: #fff 1px solid;    
+}
+
+.footer__list:last-child{
+    margin-left: 76px;
 }
 
 .footer__list ul {
@@ -567,3 +570,40 @@ h1, h2, h3, h4, h5, h6{
     list-style-type: none;
 }
 
+.slogan{
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    color: #fff;
+    font-weight: 400;
+    letter-spacing: 1.76px;
+    line-height: 22px;
+}
+
+.footer__email{
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    color: #fff;
+    font-weight: 400;
+    letter-spacing: 2.94px;
+    text-decoration: none;
+    line-height: 22px;
+}
+
+.footer__image{
+    display: flex;
+}
+
+.footer__image ul{
+    margin-right: 20px;
+}
+
+.copyright{
+    margin-top: 146px;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 22px;
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+    padding-bottom: 76px;
+}
