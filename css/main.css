@@ -19,8 +19,8 @@ h1, h2, h3, h4, h5, h6{
 .wrapper__header{   
     display: flex;   
     justify-content: space-between;
-    margin-top: 33px;
-    padding-bottom: 40px;
+    margin-top: 2rem;
+    padding-bottom: 2.5rem;
     border-bottom: 1px solid #D8D8D8;    
 }
 
@@ -69,7 +69,7 @@ h1, h2, h3, h4, h5, h6{
 .btn{
     padding: 1rem 2.2rem;
     background-color: #fff;
-    border-radius: 8px;
+    border-radius: .5rem;
     border: 2px solid #16133E;
     font-family: 'Roboto', sans-serif;
     font-size: 1.05rem;
@@ -103,8 +103,8 @@ h1, h2, h3, h4, h5, h6{
 .banner__title{
     font-family: 'Nunito Sans', sans-serif;
     font-weight: 600;
-    line-height: 68px;
-    font-size: 56px;
+    line-height: 4.25rem;
+    font-size: 3.5rem;
     color: #16133E;
     margin: 0 0 1.5rem;
 }
@@ -112,7 +112,7 @@ h1, h2, h3, h4, h5, h6{
 .banner__text{
     font-family: 'Roboto', sans-serif;
     line-height: 2.5rem;
-    font-size: 19px;    
+    font-size: 1.1rem;    
     margin-bottom: 2.2rem;  
     color: #183B56;
 }
@@ -131,7 +131,7 @@ h1, h2, h3, h4, h5, h6{
     color: #007FFC;
     background-color: #fff;
     border: 2px solid #007FFC;
-    border-radius: 8px;
+    border-radius: .5rem;
     cursor: pointer;
     outline: none;
     padding: 1rem 2.2rem;
@@ -143,14 +143,13 @@ h1, h2, h3, h4, h5, h6{
     color: #fff;
 }
 
-
 .service{
-    margin-top: 121px;
+    margin-top: 7.56rem;
 }
 
 .service__text{
     font-family: 'Roboto', sans-serif;
-    font-size: 16px;
+    font-size: 1rem;
     color: #87A1B6;
     font-weight: 400;    
 }
@@ -166,7 +165,7 @@ h1, h2, h3, h4, h5, h6{
 .service__text1{
     font-family: 'Roboto', sans-serif;
     color: #5A7184;
-    font-size: 18px;    
+    font-size: 1.12rem;    
 }
 
 .service__list{
@@ -181,16 +180,16 @@ h1, h2, h3, h4, h5, h6{
     width: 33.33333%;
     height: 348px;
     border: 2px solid #E5EAF4;
-    border-radius: 8px;
+    border-radius: .5rem;
     padding-left: 0;
 }
 
 .service__inner{
-    margin: 42px 45px 25px 42px;
+    margin: 2.62rem 2.81rem 1.56rem 2.62rem;
 }
 .service__icon{
     border: 1px solid #E8F0FB;
-    border-radius: 16px;
+    border-radius: 1rem;
     width: 62px;
     height: 66px; 
      
@@ -198,32 +197,32 @@ h1, h2, h3, h4, h5, h6{
 
 .service__img{
     display: block;   
-    margin: 15px auto 0;
+    margin: .93rem auto 0;
 }
 
 .list__title{
     font-family: 'Roboto', sans-serif;
     color: #16133E;
-    font-size: 24px;
+    font-size: 1.5rem;
     margin: 2.5rem 0 .5rem;
 }
 
 .list__text{
     font-family: 'Roboto', sans-serif;
     color: #16133E;
-    font-size: 16px;
-    line-height: 28px;
-    margin-bottom: 18px;
+    font-size: 1rem;
+    line-height: 1.75rem;
+    margin-bottom: 1.12rem;
 }
 
 .list__subtext{
     font-family: 'Roboto', sans-serif;
     color: #16133E;
-    font-size: 16px;
+    font-size: 1rem;
 }
 
 .features{
-    margin-top: 203px;
+    margin-top: 12.87rem;
 }
 
 .features__inner{
@@ -247,10 +246,10 @@ h1, h2, h3, h4, h5, h6{
    left: 0;
    bottom: 0;
    z-index: 2;
-   font-size: 36px;   
+   font-size: 2.25rem;   
    color: #fff;
    font-family: 'Roboto', sans-serif;
-   margin:0 22px 44px 45px;   
+   margin:0 1.37rem 2.75rem 2.8rem;   
 }
 
 .price__inner{
@@ -266,7 +265,7 @@ h1, h2, h3, h4, h5, h6{
 .price__item{
     width: 33.33333%;
     padding: 0;
-    margin-right: 26px;
+    margin-right: 1.62rem;
     list-style-type: none;
     text-align: center;    
 }
@@ -289,13 +288,13 @@ h1, h2, h3, h4, h5, h6{
 
 .price__subtitle{
     font-family: 'Roboto', sans-serif;
-    font-size: 24px;
+    font-size: 1.5rem;
     margin-bottom: 2.7rem;
 }
 
 .price__title{
     font-family: 'Roboto', sans-serif;
-    font-size: 40px;
+    font-size: 2.5rem;
     font-weight: 600;
 }
 
@@ -313,28 +312,28 @@ h1, h2, h3, h4, h5, h6{
 
 .price__text{
     font-family: 'Roboto', sans-serif;
-    font-size: 16px;
+    font-size: 1rem;
     color: #87A1B6;
     margin-bottom: 2.8rem;
 }
 
 .price__subtext{
     font-family: 'Roboto', sans-serif;
-    font-size: 16px;
+    font-size: 1rem;
     color: #87A1B6;
-    margin-bottom: 54px;
+    margin-bottom: 3.375rem;
 }
 
 .price__btn{
     color: #16133E;
     background-color: #fff;
     font-family: 'Roboto', sans-serif;
-    font-size: 16px;
+    font-size: 1rem;
     cursor: pointer;
     outline: none;
     padding: 1.05rem 3.2rem;
     border: 2px solid #16133E;
-    border-radius: 23px;
+    border-radius: 1.43rem;
     transition:color .2s linear,  background-color .2s linear ;
 }
 
@@ -344,47 +343,50 @@ h1, h2, h3, h4, h5, h6{
 }
 
 .ada{
-    margin-top: 197px;
+    margin-top: 12.3rem;
     
 }
 
 .ada__inner{
     position: relative;
 }
+
 .ada__img{
     position: relative;
     width: 100%;
 }
+
 .ada__item{
     position: absolute;  
     text-align: center;
     top: 100px;
-    margin: 0 240px 0 245px;
+    margin: 0 15rem 0 15.3rem;
 }
+
 .ada__title{
     font-family: 'Roboto', sans-serif;
-    font-size: 40px;
+    font-size: 2.5rem;
     color: #fff;
     font-weight: 400;
-    margin-bottom: 32px;
+    margin-bottom: 2rem;
 }
 .ada__text{
     font-family: 'Roboto', sans-serif;
-    font-size: 18px;
+    font-size: 1.12rem;
     font-weight: 400;
     color: #fff;
-    margin-bottom: 46px;
+    margin-bottom: 2.87rem;
 }
 
 .ada__btn{
     font-family: 'Roboto', sans-serif;
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 400;
     color: #fff;
     background: none;
     border: 2px solid #fff;
-    border-radius: 23px;
-    padding: 17px 50px;
+    border-radius: 1.43rem;
+    padding: 1.06rem 3.12rem;
     cursor: pointer;
     outline: none;
     margin-right: 0.95rem;
@@ -402,23 +404,23 @@ h1, h2, h3, h4, h5, h6{
 
 .information{
     display: block;
-    margin-top: 131px;
+    margin-top: 8.18rem;
     text-align: center;
     width: 100%;
 }
 
 .form__title{
     font-family: 'open sans', sans-serif;
-    font-size: 40px;
-    margin-bottom: 42px;
+    font-size: 2.5rem;
+    margin-bottom: 2.62rem;
     letter-spacing: 0.82px;
 }
 
 .information__item{
     width: 584px;
-    padding: 23px 0 10px 12px;
+    padding: 1.43rem 0 .625rem .75rem;
     font-family: 'Roboto', sans-serif;
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 400;
     border: 1px solid #CBCBCB;
     border-radius: 4px;
@@ -429,36 +431,35 @@ h1, h2, h3, h4, h5, h6{
 .information__message{
     width: 569px;
     height: 166px;
-    padding: 12px 0 0 12px;
+    padding: .75rem 0 0 .75rem;
     font-family: 'Roboto', sans-serif;
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 400;
     border: 1px solid #CBCBCB;
     border-radius: 4px;
     resize: none;
-    margin-bottom: 31px;
+    margin-bottom: 1.93rem;
 }
+
 .information__checkbox{    
     text-align: left;
     width: 584px;    
     margin: 0 auto;
-    margin-bottom: 20px;
+    margin-bottom: 1.25rem;
 }
-
 
 .information__checkbox label{
     font-family: 'Roboto', sans-serif;
-    font-size: 16px;
-    font-weight: 400; 
-     
+    font-size: 1rem;
+    font-weight: 400;     
 }
 
 .information__btn{
-    width:584px;
+    width: 584px;
     height: 50px;
-    margin: 23px 0 14px;
+    margin: 1.43rem 0 .875rem;
     font-family: 'Roboto', sans-serif;
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 400; 
     color: #fff;
     background: #007CFC;
@@ -470,25 +471,25 @@ h1, h2, h3, h4, h5, h6{
 
 .information__text{
     font-family: 'Roboto', sans-serif;
-    font-size: 14px;
+    font-size: .875rem;
     font-weight: 400; 
 }
 
 .information__link{
     font-family: 'Roboto', sans-serif;
-    font-size: 14px;
+    font-size: .875rem;
     font-weight: 400; 
     color: #1C70EF;
 }
 
 .footer{
-    margin-top: 148px;
+    margin-top: 9.25rem;
     background: #16143D;
   
 }
 
 .wrapper__footer{
-    padding-top: 92px;
+    padding-top: 5.75rem;
     width: 100%;
     display: flex;
     max-width: 1160px;
@@ -496,16 +497,16 @@ h1, h2, h3, h4, h5, h6{
 }
 
 .footer__logo{
-    margin-right: 200px;
+    margin-right: 12.5rem;
 }
 
 .footer__text{
     width: 280px;
-    margin: 28px 0 60px;
+    margin: 1.75rem 0 3.75rem;
     font-family: 'Roboto', sans-serif;
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 400; 
-    line-height: 28px;
+    line-height: 1.75rem;
     color: #fff;
 }
 
@@ -521,7 +522,7 @@ h1, h2, h3, h4, h5, h6{
 
 
 .footer__social li{
-    margin-right: 9px;
+    margin-right: .56rem;
     cursor: pointer;
     transition: transform .2s linear;
 }
@@ -532,18 +533,18 @@ h1, h2, h3, h4, h5, h6{
 
 .title__subtitle{
     font-family: 'Roboto', sans-serif;
-    font-size: 17px;
+    font-size: 1.06rem;
     font-weight: 400;
     text-transform: uppercase;
     color: #fff;
-    line-height: 22px;
+    line-height: 1.375rem;
     letter-spacing: 2px;
-    margin-bottom: 38px;
+    margin-bottom: 2.375rem;
 }
 
 .footer__item{
     font-family: 'Roboto', sans-serif;
-    font-size: 15px;
+    font-size: .937rem;
     letter-spacing: 1.76px;
     color: #fff;
     text-decoration: none;
@@ -551,42 +552,42 @@ h1, h2, h3, h4, h5, h6{
 }
 
 .footer__list{
-    margin-right:15px;
+    margin-right: .9375rem;
     
 }
 
 .footer__list:first-child{
-    margin-right: 100px;
+    margin-right: 6.25rem;
     border: #fff 1px solid;    
 }
 
 .footer__list:last-child{
-    margin-left: 76px;
+    margin-left: 4.75rem;
 }
 
 .footer__list ul {
-    margin-top: 5px;
+    margin-top: .31rem;
     padding: 0;
     list-style-type: none;
 }
 
 .slogan{
     font-family: 'Roboto', sans-serif;
-    font-size: 15px;
+    font-size: .937rem;
     color: #fff;
     font-weight: 400;
     letter-spacing: 1.76px;
-    line-height: 22px;
+    line-height: 1.375rem;
 }
 
 .footer__email{
     font-family: 'Roboto', sans-serif;
-    font-size: 25px;
+    font-size: 1.56;
     color: #fff;
     font-weight: 400;
     letter-spacing: 2.94px;
     text-decoration: none;
-    line-height: 22px;
+    line-height: 1.375rem;
 }
 
 .footer__image{
@@ -594,16 +595,16 @@ h1, h2, h3, h4, h5, h6{
 }
 
 .footer__image ul{
-    margin-right: 20px;
+    margin-right: 1.25rem;
 }
 
 .copyright{
-    margin-top: 146px;
+    margin-top: 9.125rem;
     text-align: center;
-    font-size: 15px;
+    font-size: .937rem;
     font-weight: 400;
-    line-height: 22px;
+    line-height: 1.375rem;
     font-family: 'Roboto', sans-serif;
     color: #fff;
-    padding-bottom: 76px;
+    padding-bottom: 4.75rem;
 }
