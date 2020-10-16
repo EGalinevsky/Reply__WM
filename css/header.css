@@ -1,0 +1,87 @@
+div, p, input, button, form, span, a, ul, li{
+    box-sizing: border-box;	
+}
+
+p,body{
+    margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6{
+	margin: 0;
+} 
+
+.header{
+    width: 100%;
+    max-width: 1160px;
+    margin: 0 auto;
+}
+
+.wrapper__header{   
+    display: flex;   
+    justify-content: space-between;
+    margin-top: 2rem;
+    padding-bottom: 2.5rem;
+    border-bottom: 1px solid #D8D8D8;    
+}
+
+.logo__img{
+    margin-right: 1rem;
+}
+
+.logo__header{
+    display: flex;   
+    align-items: center;    
+}
+
+.nav{
+    display: flex;
+}
+
+.header__btn{
+    display: flex;   
+    align-items: center;
+    justify-content: center;    
+}
+
+.nav__item{
+    list-style-type: none;
+}
+.nav__header{
+    padding: 0;
+    margin-left: 4.1rem;
+}
+.nav__header:first-child{
+    margin-left: 0;
+}
+
+.nav__link{
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    color: #000;
+    font-size: 1.05rem;
+    font-weight: 500;
+}
+
+.nav__link:visited{
+    color: #00ff6a;
+}
+
+
+.btn{
+    padding: 1rem 2.2rem;
+    background-color: #fff;
+    border-radius: .5rem;
+    border: 2px solid #16133E;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.05rem;
+    font-weight: 500;
+    cursor: pointer;
+    outline: none;
+    margin-left: 1.05rem;
+    transition:background .3s linear, color .3s linear ;
+}
+
+.btn:hover{
+    background: #16133E;
+    color: #fff;    
+}
