@@ -37,26 +37,54 @@
     width: 100%;
 }
 
-.bnt__banner{
-    font-family: 'Roboto', sans-serif;
-    font-size: 1.3rem;
-
-    margin-right: 2rem;
-    
-    color: #007FFC;
+.btn{
+    padding: 1rem 2.2rem;
     background-color: #fff;
-    border: 2px solid #007FFC;
-    border-radius: .5rem;
+    border-radius: .5rem;    
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;    
+    font-weight: 500;
     cursor: pointer;
     outline: none;
-    padding: 1rem 2.2rem;
-    transition: background .2s linear, color .2s linear;
+    margin-left: 1.05rem;
+    transition:background .3s linear, color .3s linear ;
 }
 
-.bnt__banner:hover{
+.btn:hover{
     background-color: #007FFC;
     color: #fff;
 }
+
+.btn.btn__tertiary{
+    border: 2px solid #007FFC;
+    background-color: #007FFC;
+    color: #fff;
+}
+
+.btn.btn__tertiary:hover{
+    background-color: #95c5f5;
+    border-color: #9fccf8;
+}
+
+
+
+.btn.btn__secondary:hover{
+    background-color: #7fb6ee;
+}
+
+.btn.btn__primary{
+    color: #007FFC;
+    background-color: #fff;
+    border: 2px solid #007FFC;
+    margin-left: 2.6rem;
+}
+
+.btn.btn__primary:hover{
+    background: #007FFC;
+    color: #fff;
+}
+
+
 
 .service{
     margin-top: 7.56rem;
@@ -239,7 +267,7 @@
     margin-bottom: 3.375rem;
 }
 
-.price__btn{
+.btn__second{
     color: #16133E;
     background-color: #fff;
     font-family: 'Roboto', sans-serif;
@@ -249,10 +277,20 @@
     padding: 1.05rem 3.2rem;
     border: 2px solid #16133E;
     border-radius: 1.43rem;
-    transition:color .2s linear,  background-color .2s linear ;
+    transition: color .2s linear,  background-color .2s linear ;
 }
 
-.price__btn:hover{
+.btn__second.btn__secondary{
+    background-color: #16133E;
+    color: #fff;
+}
+
+.btn__second.btn__secondary:hover{
+    background-color: #6760c5;
+}
+
+
+.btn__second:hover{
     background-color: #16133E;
     color: #fff;
 }
@@ -293,7 +331,7 @@
     margin-bottom: 2.87rem;
 }
 
-.ada__btn{
+/* .ada__btn{
     font-family: 'Roboto', sans-serif;
     font-size: 1rem;
     font-weight: 400;
@@ -304,17 +342,37 @@
     padding: 1.06rem 3.12rem;
     cursor: pointer;
     outline: none;
-    margin-right: 0.95rem;
+    margin-left: 0.95rem;
     transition: background .2s linear, color .2s linear;
-}   
+}    */
 
-.ada__btn:last-child{
-    margin-right: 0;
+
+.btn__second.btn__primary{
+    color: #000;
+    background-color: #fff;
+    border: 2px solid #fff;
+    margin-right: 0.95rem;
+}
+
+.btn__second.btn__primary:hover{
+    background-color: transparent;
+    color: #fff;
 }
 
 .ada__btn:hover{
     color: #000;
     background: #FFFFFF;
+}
+
+.btn__second.btn__tertiary{
+    background-color: transparent;
+    color: #fff;
+    border: 2px solid #fff;
+}
+
+.btn__second.btn__tertiary:hover{
+    background-color: #fff;
+    color: #000;
 }
 
 .information{
@@ -339,8 +397,18 @@
     font-weight: 400;
     border: 1px solid #CBCBCB;
     border-radius: 4px;
-    margin-bottom: 1.3rem;
-    
+    outline: none;
+    margin-bottom: 1.3rem;    
+}
+
+.information__item:required:focus{
+    border: 1px solid #007FFC;
+}
+
+.information__item:disabled,
+.information__item:disabled::placeholder{
+    background-color: rgb(206, 206, 206);
+    color: #fff;
 }
 
 .information__message{
@@ -397,3 +465,13 @@
     color: #1C70EF;
 }
 
+.information__link:visited{
+    color: #ff0000;
+}
+.information__link:hover{
+    color: rgb(0, 255, 85);
+}
+
+.information__link:active{
+    color: brown;
+}

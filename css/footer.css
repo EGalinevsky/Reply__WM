@@ -55,6 +55,10 @@ h1, h2, h3, h4, h5, h6{
     transition: transform .2s linear;
 }
 
+.footer__social li:visited{
+    color: rgb(248, 73, 73);
+}
+
 .footer__social li:hover{
     transform: translateY(-3px);
 }
@@ -77,6 +81,13 @@ h1, h2, h3, h4, h5, h6{
     color: #fff;
     text-decoration: none;
     font-weight: 400; 
+}
+
+
+.footer__item:visited, 
+.footer__item:hover, 
+.footer__item:active{
+    color: #f87979;    
 }
 
 .footer__list{

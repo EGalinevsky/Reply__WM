@@ -63,17 +63,25 @@ h1, h2, h3, h4, h5, h6{
 }
 
 .nav__link:visited{
-    color: #00ff6a;
+    color: #43fe;
+}
+
+.nav__link:hover{
+    border-bottom: 1px solid #6c68ad;
+    color: #6c68ad;
+}
+
+.nav__link:active{
+    color: blueviolet;
 }
 
 
 .btn{
     padding: 1rem 2.2rem;
     background-color: #fff;
-    border-radius: .5rem;
-    border: 2px solid #16133E;
+    border-radius: .5rem;    
     font-family: 'Roboto', sans-serif;
-    font-size: 1.05rem;
+    font-size: 1rem;    
     font-weight: 500;
     cursor: pointer;
     outline: none;
@@ -85,3 +93,15 @@ h1, h2, h3, h4, h5, h6{
     background: #16133E;
     color: #fff;    
 }
+
+.btn.btn__secondary{
+    background-color: #16133E;
+    color: #ffffff;    
+}
+
+.btn.btn__secondary:hover{
+    background-color: #948cff;
+    color: #ffffff;
+    border: 2px solid #948cff;
+}
+
