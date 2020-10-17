@@ -16,7 +16,7 @@
 }
 
 .banner__title{
-    font-family: 'Nunito Sans', sans-serif;
+    
     font-weight: 600;
     line-height: 4.25rem;
     font-size: 3.5rem;
@@ -97,8 +97,7 @@
     font-weight: 400;    
 }
 
-.service__title{
-    font-family: 'Nunito Sans', sans-serif;
+.service__title{    
     font-weight: 600;
     font-size: 40px;
     color: #16133E;
@@ -316,8 +315,7 @@
     margin: 0 15rem 0 15.3rem;
 }
 
-.ada__title{
-    font-family: 'Roboto', sans-serif;
+.ada__title{    
     font-size: 2.5rem;
     color: #fff;
     font-weight: 400;
@@ -382,8 +380,7 @@
     width: 100%;
 }
 
-.form__title{
-    font-family: 'open sans', sans-serif;
+.form__title{    
     font-size: 2.5rem;
     margin-bottom: 2.62rem;
     letter-spacing: 0.82px;
