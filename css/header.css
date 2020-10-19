@@ -64,32 +64,4 @@
 }
 
 
-.btn{
-    padding: 1rem 2.2rem;
-    background-color: #fff;
-    border-radius: .5rem;    
-    font-family: 'Roboto', sans-serif;
-    font-size: 1rem;    
-    font-weight: 500;
-    cursor: pointer;
-    outline: none;
-    margin-left: 1.05rem;
-    transition:background .3s linear, color .3s linear ;
-}
-
-.btn:hover{
-    background: #16133E;
-    color: #fff;    
-}
-
-.btn.btn__secondary{
-    background-color: #16133E;
-    color: #ffffff;    
-}
-
-.btn.btn__secondary:hover{
-    background-color: #948cff;
-    color: #ffffff;
-    border: 2px solid #948cff;
-}
 

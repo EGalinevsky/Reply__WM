@@ -28,38 +28,6 @@
     width: 100%;
 }
 
-.btn:hover{
-    background-color: #007FFC;
-    color: #fff;
-}
-
-.btn.btn__tertiary{
-    border: 2px solid #007FFC;
-    background-color: #007FFC;
-    color: #fff;
-}
-
-.btn.btn__tertiary:hover{
-    background-color: #95c5f5;
-    border-color: #9fccf8;
-}
-
-.btn.btn__secondary:hover{
-    background-color: #7fb6ee;
-}
-
-.btn.btn__primary{
-    color: #007FFC;
-    background-color: #fff;
-    border: 2px solid #007FFC;
-    margin-left: 2.6rem;
-}
-
-.btn.btn__primary:hover{
-    background: #007FFC;
-    color: #fff;
-}
-
 .service{
     margin-top: 7.56rem;
 }
@@ -240,20 +208,6 @@
     margin-bottom: 3.375rem;
 }
 
-.btn__second.btn__secondary{
-    background-color: #16133E;
-    color: #fff;
-}
-
-.btn__second.btn__secondary:hover{
-    background-color: #6760c5;
-}
-
-.btn__second:hover{
-    background-color: #16133E;
-    color: #fff;
-}
-
 .ada{
     margin-top: 12.3rem;    
 }
@@ -289,33 +243,7 @@
     margin-bottom: 2.87rem;
 }
 
-.btn__second.btn__primary{
-    color: #000;
-    background-color: #fff;
-    border: 2px solid #fff;
-    margin-right: 0.95rem;
-}
 
-.btn__second.btn__primary:hover{
-    background-color: transparent;
-    color: #fff;
-}
-
-.ada__btn:hover{
-    color: #000;
-    background: #FFFFFF;
-}
-
-.btn__second.btn__tertiary{
-    background-color: transparent;
-    color: #fff;
-    border: 2px solid #fff;
-}
-
-.btn__second.btn__tertiary:hover{
-    background-color: #fff;
-    color: #000;
-}
 
 .information{
     display: block;
