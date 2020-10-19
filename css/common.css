@@ -1,0 +1,53 @@
+@font-face{
+    src: url("../font/Market_Deco.ttf");
+    font-family: 'Market_Deco';
+}
+
+div, p, input, button, form, span, a, ul, li{
+    box-sizing: border-box;	
+}
+
+p,body{
+    margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6{
+	margin: 0;
+} 
+
+h1, h2{
+    font-family: 'Market_Deco', sans-serif;
+    font-size: 50px;
+}
+
+.container{
+    width: 100%;
+    max-width: 1160px;
+    margin: 0 auto;
+}
+
+.btn{
+    padding: 1rem 2.2rem;
+    background-color: #fff;
+    border-radius: .5rem;    
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;    
+    font-weight: 500;
+    cursor: pointer;
+    outline: none;
+    margin-left: 1.05rem;
+    transition:background .3s linear, color .3s linear ;
+}
+
+.btn__second{
+    color: #16133E;
+    background-color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    cursor: pointer;
+    outline: none;
+    padding: 1.05rem 3.2rem;
+    border: 2px solid #16133E;
+    border-radius: 1.43rem;
+    transition: color .2s linear,  background-color .2s linear ;
+}
