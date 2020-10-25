@@ -55,24 +55,19 @@
 .service__list{
     margin-top: 4rem;
     display: flex;
-    justify-content: space-between;
-    width: 100%;
+    justify-content: space-between;    
     flex-wrap: wrap;
 }
 
 
 
-.service__item{
+.service__item{    
     list-style-type: none;    
-    width: 28.33333%;
+    width: 28.33333%;    
     height: 100%;
     border: 2px solid #E5EAF4;
     border-radius: .5rem;
     padding-left: 0;
-}
-
-.service__item:last-child{
-    margin-right: 0;
 }
 
 .service__inner{
