@@ -3,8 +3,11 @@
     justify-content: space-between;
     display: flex;
 }
-.wrapper__rigth{
-    width: 40%;
+.wrapper__left{
+    flex-grow: 1;
+    margin-right: 100px;
+    flex-basis: 400px;
+    flex-wrap: wrap;
 }
 
 .banner__title{    
@@ -21,6 +24,42 @@
     font-size: 1.1rem;    
     margin-bottom: 2.2rem;  
     color: #183B56;
+}
+
+.wrapper__rigth{
+    position: relative;
+    height: 100%;  
+    flex-grow: 1; 
+    flex-basis: 450px;
+}
+
+.banner__img{
+    width: 100%;
+    height: 100%;    
+}
+
+.btn__back{
+    position: absolute;
+    top: 45%;
+    left: -20px;    
+    background-color: #16133E;
+    padding: 16px;
+    border: #16133E solid 1px;
+    border-radius: 5px;
+    outline: none;
+    cursor: pointer;
+}
+
+.btn__next{
+    position: absolute;
+    top: 45%;
+    right: -20px;    
+    background-color: #16133E;
+    padding: 16px;
+    border: #16133E solid 1px;
+    border-radius: 5px;
+    outline: none;
+    cursor: pointer;
 }
 
 .bnt__banner__inner{
@@ -63,11 +102,17 @@
 
 .service__item{    
     list-style-type: none;    
-    width: 28.33333%;    
-    height: 100%;
+    flex-grow: 1;
+    flex-basis: 340px;
+    
     border: 2px solid #E5EAF4;
     border-radius: .5rem;
     padding-left: 0;
+    margin-right: 30px;
+}
+
+.service__item:last-child{
+    margin-right: 0;    
 }
 
 .service__inner{
@@ -126,17 +171,17 @@
 .features__item{  
     margin-bottom: 2.3rem; 
     position: relative;
+    flex-grow: 1;
 }
 
 .feature__text{
    position: absolute;
-   left: 0;
-   bottom: 0;
+   left: 48px;
+   bottom: 45px;
    z-index: 2;
-   font-size: 2.25rem;   
+   font-size: 2rem;   
    color: #fff;
-   font-family: 'Roboto', sans-serif;
-   margin:0 1.37rem 2.75rem 2.8rem;   
+   font-family: 'Roboto', sans-serif;    
 }
 
 .price{
