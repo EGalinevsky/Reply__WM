@@ -287,6 +287,9 @@
 
 .ada__inner{
     position: relative;
+    max-width: 100%;
+    overflow: hidden;
+    
 }
 
 .ada__img{
