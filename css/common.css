@@ -18,7 +18,7 @@ h1, h2, h3, h4, h5, h6{
 
 h1, h2{
     font-family: 'Market_Deco', sans-serif;
-    font-size: 50px;
+    font-size: 3,1rem;
 }
 
 .container{
@@ -30,9 +30,9 @@ h1, h2{
 }
 
 .btn{
-    padding: 1rem 2.2rem;
+    padding: 16px 35px;
     background-color: #fff;
-    border-radius: .5rem;    
+    border-radius: 8px;    
     font-family: 'Roboto', sans-serif;
     font-size: 1rem;    
     font-weight: 500;    
@@ -40,7 +40,7 @@ h1, h2{
     border: solid #16133E;
     border-width: 2px 2px;
     outline: none;
-    margin-left: 1.05rem;
+    margin-left: 18px;
     transition:background .3s linear, color .3s linear ;
 }
 
@@ -75,7 +75,7 @@ h1, h2{
     color: #007FFC;
     background-color: #fff;
     border: 2px solid #007FFC;
-    margin-left: 2.6rem;
+    margin-left: 41px;
 }
 
 .btn.btn__primary:hover{
@@ -91,9 +91,9 @@ h1, h2{
     font-size: 1rem;
     cursor: pointer;
     outline: none;
-    padding: 1.05rem 3.2rem;
+    padding: 18px 51px;
     border: 2px solid #16133E;
-    border-radius: 1.43rem;
+    border-radius: 23rem;
     transition: color .2s linear,  background-color .2s linear ;
 }
 
@@ -115,7 +115,7 @@ h1, h2{
     color: #000;
     background-color: #fff;
     border: 2px solid #fff;
-    margin-right: 0.95rem;
+    margin-right: 15px;
 }
 
 .btn__second.btn__primary:hover{

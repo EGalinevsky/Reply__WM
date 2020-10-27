@@ -7,13 +7,13 @@
 .wrapper__header{   
     display: flex;   
     justify-content: space-between;
-    margin-top: 2rem;
-    padding-bottom: 2.5rem;
+    margin-top: 22px;
+    padding-bottom: 40px;
     border-bottom: 1px solid #D8D8D8;    
 }
 
 .logo__img{
-    margin-right: 1rem;
+    margin-right: 16px;
 }
 
 .logo__header{
@@ -36,7 +36,7 @@
 }
 .nav__header{
     padding: 0;
-    margin-left: 4.1rem;
+    margin-left: 65px;
 }
 .nav__header:first-child{
     margin-left: 0;
@@ -46,7 +46,7 @@
     font-family: 'Roboto', sans-serif;
     text-decoration: none;
     color: #000;
-    font-size: 1.05rem;
+    font-size: 1rem;
     font-weight: 500;
 }
 
