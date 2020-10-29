@@ -1,14 +1,14 @@
 .footer{
-    margin-top: 148px;
+    margin-top: 150px;
     background: #16143D; 
 }
 
 .wrapper__footer{
-    padding-top: 92px;
     width: 100%;
     display: flex;
     justify-content: space-between;
-    max-width: 1160px;
+    max-width: 1200px;
+    padding: 90px 20px 0px;
     margin: 0 auto;
 }
 
@@ -16,12 +16,14 @@
 
 .footer__logo{    
     flex-grow: 1;
+    min-width: 300px;
 }
 
 .footer__wrapper__list{
     display: flex;
     flex-wrap: wrap;
     flex-grow: 1;
+    min-width: 240px;
 }
 
 .footer__text{
