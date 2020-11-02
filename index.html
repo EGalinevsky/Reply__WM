@@ -395,7 +395,54 @@
        <p class="copyright">
         Copyright © 2020. Crafted with love.
        </p>
-    </footer>
+   </footer>
+
+   <div class="modal">
+       <div class="modal__wrapper">
+           <article>
+                <h2 class="modal__title">Вход</h1>
+                <button class="modal__close"></button> 
+                <p class="modal__text"> Войти как пользователь</p>    
+           </article>     
+           <div class="modal__sotial">
+               <ul >
+                    <li>
+                        <a href="#">
+                            <button class="modal__sotial_btn modal__sotial__blue">
+                                <img class="modal__img" src="img/modal/facebook.svg" alt="">
+                            </button>                            
+                        </a>
+                    </li>
+               </ul>
+               <ul>
+                    <li>
+                        <a href="#">
+                            <button class="modal__sotial_btn modal__sotial__azure">
+                                <img class="modal__img" src="img/modal/vk.svg" alt="">
+                            </button>                            
+                        </a>
+                    </li>
+               </ul>
+               <ul>
+                    <li>
+                        <a href="#">
+                            <button class="modal__sotial_btn modal__sotial__red">
+                                <img class="modal__img" src="img/modal/google.svg" alt="">
+                            </button>                            
+                        </a>
+                    </li>    
+               </ul>
+           </div>  
+           <form action="#" class="modal__inform">
+               <p class="modal__text">
+                    Войти через логин и пароль
+               </p>
+               <input class="modal__inform__item" type="email" required name="email" id="email" placeholder="Логин или эл.почта"><br>
+               <input class="modal__inform__item" type="password" required name="password" id="email" placeholder="Пароль"><br>
+               <input class="modal__inform__btn" type="submit" class="modal__inform__btn" name="submitForm" value="Войти">
+           </form>      
+       </div>
+   </div>
 
 </body>
 </html>
