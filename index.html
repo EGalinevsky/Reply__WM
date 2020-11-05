@@ -45,7 +45,7 @@
                 </nav> 
                 <div class="header__btn">
                     <button class="btn" type="button">Sing In</button>
-                    <button class="btn btn__secondary" type="button">Login</button>
+                    <button class="btn btn__secondary" id="login" type="button">Login</button>
                 </div>  
                     
            </div>
@@ -453,6 +453,20 @@
            </h2>   
        </div>
    </div>
+
+   <script>
+        var modal = document.querySelector('.modal');
+        var link = document.querySelector('#login');
+        var close = document.querySelector('.modal__close')
+
+        link.addEventListener('click', () =>{
+            modal.classList.add('open');
+        });
+
+        close.addEventListener('click', () =>{
+            modal.classList.remove('open');
+        });
+  </script>
 
 </body>
 </html>
