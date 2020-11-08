@@ -459,11 +459,13 @@
         var link = document.querySelector('#login');
         var close = document.querySelector('.modal__close')
 
-        link.addEventListener('click', () =>{
+        link.addEventListener('click', function(){
+            document.body.style.overflow='hidden'
             modal.classList.add('open');
         });
 
-        close.addEventListener('click', () =>{
+        close.addEventListener('click', function(){
+            document.body.style.overflow='auto'
             modal.classList.remove('open');
         });
   </script>
