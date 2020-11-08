@@ -437,7 +437,7 @@
                <p class="modal__text">
                     Войти через логин или почту
                </p>
-               <input class="modal__inform__item" type="email" required name="email" id="email" placeholder="Логин или эл.почта"><br>
+               <input class="modal__inform__item" type="email" required name="email" id="modal__email" placeholder="Логин или эл.почта"><br>
                <input class="modal__inform__item" type="password" required name="password" id="email" placeholder="Пароль"><br>
                <input class="modal__inform__btn" type="submit" class="modal__inform__btn" name="submitForm" value="Войти">
                <div class="modal__ingorm__checkbox">
@@ -454,21 +454,25 @@
        </div>
    </div>
 
-   <script>
-        var modal = document.querySelector('.modal');
-        var link = document.querySelector('#login');
-        var close = document.querySelector('.modal__close')
 
-        link.addEventListener('click', function(){
-            document.body.style.overflow='hidden'
-            modal.classList.add('open');
-        });
+   
+<script>
+    var modal = document.querySelector('.modal');
+    var link = document.querySelector('#login');
+    var email = document.querySelector('#modal__email');
+    var close = document.querySelector('.modal__close');
 
-        close.addEventListener('click', function(){
-            document.body.style.overflow='auto'
-            modal.classList.remove('open');
-        });
-  </script>
+    link.addEventListener('click', function(){
+        modal.classList.add('open');
+        document.body.style.overflow='hidden';
+        email.focus();        
+    });
+
+    close.addEventListener('click', function(){
+        document.body.style.overflow='auto';
+        modal.classList.remove('open');
+    });
+</script>
 
 </body>
 </html>
