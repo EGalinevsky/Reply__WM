@@ -37,8 +37,11 @@
 }
 
 .footer__social{    
+    position: absolute;
     display: flex;
 }
+
+
 
 .footer__social ul{    
     padding: 0;
