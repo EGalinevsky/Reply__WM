@@ -23,6 +23,9 @@
 
 .nav{
     display: flex;
+    flex-wrap: wrap;   
+    flex-basis: 400px; 
+    
 }
 
 .header__btn{
@@ -36,10 +39,10 @@
 }
 .nav__header{
     padding: 0;
-    margin-left: 65px;
+    margin-right: 65px;   
 }
-.nav__header:first-child{
-    margin-left: 0;
+.nav__header:last-child{
+    margin-right: 0;
 }
 
 .nav__link{
