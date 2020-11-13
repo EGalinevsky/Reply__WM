@@ -31,6 +31,7 @@
     height: 420px;  
     flex-grow: 1; 
     flex-basis: 450px;
+    margin-right: 20px;
 }
 
 .wrapper__rigth .banner__img{
@@ -76,54 +77,6 @@
 .bnt__banner__inner{
     display: flex;
     width: 100%;
-}
-
-.burger__menu{
-    position: relative;    
-    
-    display: none;
-    width: 28px;
-    height: 3px;
-    background: #000;
-    justify-content: center;
-    align-items: center;
-    text-align: center;   
-    cursor: pointer;    
-    
-    margin: auto 0;
-    margin-right: 10px;
-    border: 0;
-    padding: 0;
-}
-
-.burger__menu::before, 
-.burger__menu::after{
-    content: "";
-    position: absolute;
-    right: 0;
-    top: 25%;
-    width: 28px;
-    height: 3px;
-    background: #000;
-}
-
-.burger__menu::before{
-    transform: translateY(7px);
-}
-
-.burger__menu::after{
-    transform: translateY(-9px);
-}
-
-.burger__menu__active{
-    background: none;
-}
-
-.burger__menu__active::before{
-    transform: rotate(45deg);
-}
-.burger__menu__active::after{
-    transform: rotate(-45deg);
 }
 
 .service{
@@ -225,7 +178,7 @@
     display: flex;    
     justify-content: space-between;
     flex-wrap: wrap;
-    margin: 0 -20px;
+    
 }
 
 .features__item{
@@ -234,15 +187,14 @@
     height: 485px;
     min-width: 450px;
     max-width: 580px;
-    flex-basis: 50%;
+    flex-basis: 48%;
     padding: 20px;
     margin-bottom: 20px;
     
 }
 
-.features__item:last-child{
-    margin-right: 0;
-    margin-bottom: 0;
+.features__item:first-child{
+    margin-right: 20px;
 }
 
 .features__img{
@@ -703,3 +655,67 @@
     text-decoration: none;
     color:#004992;
 }   
+
+@media(max-width:1024px){
+
+    body{
+        padding: 5px;
+    }
+
+    .service__item:last-child{
+        margin-right: 30px;
+    }
+}
+
+
+@media(max-width: 991px){
+    body{
+        padding-left: 10px;
+    }
+
+    .service__item:last-child{
+        margin-right: 30px;
+    }
+
+    .features__inner{
+        justify-content: center;
+    }
+
+    .features__item{
+        flex-basis: 50%;  
+        min-width: 500px;
+    }
+
+    .features__item:first-child{
+        margin-right: 0;
+    }
+}
+
+@media(max-width: 768px){
+    
+    .banner__title{
+        font-size: 3rem;
+    }
+
+    .banner__inner{
+        flex-wrap: wrap;
+    }
+
+    .wrapper__left{
+        margin-right: 0;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    
+    .bnt__banner__inner{
+        justify-content: center;
+    }
+
+    .wrapper__rigth{
+        margin-left: 20px;
+    }
+}
+
+@media(max-width: 480px){
+
+}
