@@ -20,38 +20,42 @@
                     <img src="img/project/Shape1.svg" alt="logo__text">
                 </div>
                 
-                <nav class="nav">
-                    <ul class="nav__header">
-                        <li class="nav__item">
-                            <a class="nav__link" target="_blank" href="#132324">Home</a>
-                        </li>
-                    </ul>
+                <div class="burger__menu__wrapper">
 
-                    <ul class="nav__header" >
+                    <nav class="nav">
+                        <ul class="nav__header">
+                            <li class="nav__item">
+                                <a class="nav__link" target="_blank" href="#132324">Home</a>
+                            </li>
+                        </ul>
+    
+                        <ul class="nav__header" >
                             <li class="nav__item" >
                                 <a class="nav__link" target="_blank" href="#544652">Portfolio</a>
                             </li>
-                    </ul>
-
-                    <ul class="nav__header">
+                        </ul>
+    
+                        <ul class="nav__header">
                             <li class="nav__item">
                                 <a class="nav__link" target="_blank" href="#47342">Pages</a>
                             </li>
-                    </ul>
-
-                    <ul class="nav__header">
+                        </ul>
+    
+                        <ul class="nav__header">
                             <li class="nav__item">
                                 <a class="nav__link" target="_blank" href="#42934131">Blog</a>
                             </li>
-                    </ul>
-                </nav> 
-                <div class="header__btn">
-                    <button class="btn" type="button">Sing In</button>
-                    <button class="btn btn__secondary" id="login" type="button">Login</button>
-                    
+                        </ul>
+                    </nav> 
+                    <div class="header__btn">
+                        <button class="btn" type="button">Sing In</button>
+                        <button class="btn btn__secondary" id="login" type="button">Login</button>
+                    </div>
 
-                </div> 
-                <button class="burger__menu" type="button" id="burger__menu"></button> 
+                </div>
+                 
+
+                <button class="burger__menu" type="button" id="id__burger__menu"></button> 
 
                     
            </div>
@@ -467,6 +471,9 @@
     var link = document.querySelector('#login');
     var email = document.querySelector('#modal__email');
     var close = document.querySelector('.modal__close');
+    var menu = document.querySelector('#id__burger__menu');
+    var burgerMenu = document.querySelector('.burger__menu__wrapper')
+    
 
     link.addEventListener('click', function(){
         modal.classList.add('open');
@@ -478,6 +485,19 @@
         document.body.style.overflow='auto';
         modal.classList.remove('open');
     });
+
+    menu.addEventListener('click', function(){
+        menu.classList.toggle('active');        
+        burgerMenu.classList.toggle('active');
+        
+    })
+
+    
+
+   
+
+
+
 </script>
 
 </body>

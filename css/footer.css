@@ -139,9 +139,77 @@
     padding-bottom: 76px;
 }
 
-@media(max-width: 768px){
+
+@media(max-width: 991px){
+
+    .footer__email{
+        font-size: 1.2rem;
+    }
+}
+
+@media(max-width: 768px){    
     
     .footer__text{
         font-size: 0.8rem;
+    }
+
+    .footer__list{
+        margin-bottom: 30px;
+        min-width: 150px;
+    }
+
+    .footer__item{
+        font-size: 0.7rem;        
+    }
+
+    .title__subtitle{
+        margin-bottom: 20px;
+    }
+
+    .slogan{
+        font-size: .7rem;
+    }
+
+    .footer__email{
+        font-size: 1rem;
+    }
+
+    .footer__image{
+        display: block;
+    }
+
+    .copyright{
+        margin-top: 40px;
+    }
+    
+}
+
+
+@media(max-width: 481px){
+
+    .wrapper__footer{
+        flex-wrap: wrap;
+    }
+
+    .footer__wrapper__list{
+        margin-top: 50px;
+    }
+    .footer__list{
+       min-width: 100%;
+       text-align: center;
+    }
+
+    .footer__logo{
+        text-align: center;
+    }
+
+    .footer__text{
+        margin: 20px 0;
+        width: 100%;
+    }
+
+    .footer__social{
+        position: relative;
+        justify-content: center;
     }
 }

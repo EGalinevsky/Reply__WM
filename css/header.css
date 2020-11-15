@@ -2,7 +2,7 @@
     width: 100%;
     max-width: 1160px;
     margin: 0 auto;
-    position: relative;
+    position: relative;    
 }
 
 .wrapper__header{   
@@ -19,7 +19,15 @@
 
 .logo__header{
     display: flex;   
-    align-items: center;    
+    align-items: center;  
+    flex-grow: 2;  
+    padding-left: 10px;
+}
+
+.burger__menu__wrapper{
+    display: flex;
+    justify-content: space-between;
+    flex-grow: 1;
 }
 
 .nav{
@@ -39,13 +47,15 @@
     position: relative;    
     
     display: none;
+    outline: none;
     width: 28px;
     height: 3px;
     background: #000;
     justify-content: center;
     align-items: center;
     text-align: center;   
-    cursor: pointer;    
+    cursor: pointer;  
+    overflow: visible;   
     
     margin: auto 0;
     margin-right: 10px;
@@ -72,14 +82,14 @@
     transform: translateY(-9px);
 }
 
-.burger__menu__active{
-    background: none;
+.burger__menu.active{
+    background: none;   
 }
 
-.burger__menu__active::before{
+.burger__menu.active::before{
     transform: rotate(45deg);
 }
-.burger__menu__active::after{
+.burger__menu.active::after{
     transform: rotate(-45deg);
 }
 
@@ -121,16 +131,97 @@
 
 
 @media(max-width: 768px){
-    
-    .nav{
+
+    .burger__menu__wrapper{
+        position: absolute;
+        right: 0;
+        top: 30px;
         display: none;
+        width: 100%;
+        padding-bottom: 30px;
+        
+        background-color: #ffffff;
+        
+        box-shadow: #000;
+        box-shadow: 0px 6px 2px rgba(0,0,0,0.33);
     }
 
-    .header__btn{
-        display: none;
+    .burger__menu__wrapper.active{    
+        display: block;        
     }
+
+    .nav__header{
+        margin-right: 0;
+        border-width: 20px;
+        padding-bottom: 5px;
+        border-bottom: 1px solid #000;
+        
+    }
+
+    .nav__header:last-child{
+        margin-right: 0;
+    }
+
+    .nav{
+       display: block; 
+       text-align: center;
+}
+
+    .header__btn{
+        display: flex;
+
+        
+    }
+
+    .header__btn .btn {
+        width: 25%;
+    }
+
 
     .burger__menu{
         display: flex;
     }
 }
+
+@media(max-width: 480px){
+    .header__btn .btn{
+        width: 30%;
+    }
+
+    .service{
+        margin-top: 60px;
+    }
+
+    .features{
+        margin-top: 100px;
+    }
+
+    .price{
+        margin-top: 100px;
+    }
+
+    .ada{
+        margin-top: 100px;
+    }
+
+    .information__item{
+        width: 70%;
+    }
+
+    .information__message{
+        width: 67%;
+    }
+
+    .information__checkbox{
+        width: 70%;
+    }
+
+    .footer{
+        margin-top: 60px;
+    }
+
+    .copyright{
+        padding-bottom: 40px;
+    }
+}
+
