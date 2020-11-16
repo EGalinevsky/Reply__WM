@@ -179,8 +179,7 @@
 .features__inner{
     display: flex;    
     justify-content: space-between;
-    flex-wrap: wrap;
-    
+    flex-wrap: wrap;    
 }
 
 .features__item{
@@ -189,7 +188,7 @@
     height: 485px;
     min-width: 450px;
     max-width: 580px;
-    flex-basis: 48%;
+    flex-basis: 35%;
     padding: 20px;
     margin-bottom: 20px;
     
